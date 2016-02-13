@@ -1,0 +1,10 @@
+#Writtern in ruby
+
+def append_random_number(name)
+# This method appends a random number between 6 and 15(both numbers excluded) to the name and returns it. 
+
+	r = Random.new
+	num = r.rand(7...15)
+	return name + " " + num.to_s 
+	
+end
